@@ -1,0 +1,105 @@
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+header {
+  height: 400px;
+  width: 100%;
+  background: no-repeat center/80% url("https://i.imgur.com/4yLZJMo.png");
+  position: relative;
+  top: -60px;
+}
+
+.title {
+  position: absolute;
+  bottom: 40px;
+  left: 200px;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Abril Fatface", cursive;
+  color: #222 grey;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "Abril Fatface", cursive;
+  color: #222 grey;
+  margin-top: 0;
+}
+
+.main {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: -80px;
+}
+
+p,
+ul {
+  font-family: "Josefin Sans", sans-serif;
+  color: #222 grey;
+  line-height: 2;
+  margin-top: 20px;
+}
+
+#bold {
+  font-weight: bold;
+}
+
+h5 {
+  font-family: "Merriweather", serif;
+  font-size: 15px;
+  font-style: italic;
+  margin-top: -20px;
+}
+
+blockquote {
+  background-color: #696969;
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  font-family: "Abril Fatface", cursive;
+  margin-left: -70px;
+  margin-right: -70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+  text-align: center;
+}
+
+blockquote::before {
+  content: "“";
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  font-size: 90px;
+  position: absolute;
+  top: -10px;
+  left: 10px;
+}
+
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+hr {
+  border-top: 2px solid;
+}
